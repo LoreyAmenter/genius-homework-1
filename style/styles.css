@@ -1,0 +1,112 @@
+:root{
+    --brand-color-light:#2B7FFF;
+    --brand-color-dark:#011C44;
+    --black:#000000;
+    --side-text: #747272;
+    --white-text:#FFFFFF;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.hero-title{
+    color: var(--brand-color-light);
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 1.2;
+}
+.button{
+    width: 219px;
+    height: 53px;
+    background: var(--brand-color-light);
+    border-radius: 32px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.1;
+}
+.button-description{
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+}
+.section-title{
+    color: var(--brand-color-dark);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.15;
+    text-align: center;
+}
+.brand-color-text{
+    color: var(--brand-color-light);
+}
+.nav-menu{
+    list-style-type: none;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: var(--brand-color-dark);
+}
+.nav-menu a:hover{
+    color: var(--brand-color-light);
+}
+.main-description{
+    color: var(--brand-color-dark);
+}
+.bold-text{
+    font-weight: bold;
+}
+.Our-advantages{
+    color: var(--black);
+    line-height: 1.5;
+    text-align: center;
+}
+.prosedure-card{
+    color: var(--white-text);
+    text-align: center;
+}
+.form-heading{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.2;
+}
+.form-footer{
+    color: var(--side-text);
+    font-size: 12px;
+    line-height: 1.5;
+}
+.nav-menu-footer{
+    list-style-type: none;
+}
+.nav-menu-footer a{
+    text-decoration: none;
+    color: var(--white-text);
+}
+.nav-menu-footer a:hover{
+    color: var(--brand-color-light);
+}
+.address-list{
+    list-style-type: none;
+}
+.address-list a{
+    text-decoration: none;
+    color: var(--white-text);
+}
+.address-list a:hover{
+    color: var(--brand-color-light);
+}
+.address-list{
+    list-style-type: none;
+    text-decoration: none;
+}
+.copyright-text{
+    color: var(--side-text);
+    font-size: 13px;
+    line-height: 1.15;
+}
+.legal{
+    line-height: 1.15;
+    color: var(--white-text);
+}
